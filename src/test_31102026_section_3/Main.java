@@ -16,5 +16,19 @@ public class Main {
 	        payment.payment();
 	        payment1.payment();
 	        payment2.payment();
+	        
+	        
+	        Employee E1 = new Developer(1, "Natheem", "full stack");
+	        Employee E2 = new Manager(1, "Alex", "Manager");
+	        E1.displayDetails();
+	        E2.displayDetails();
+	        
+	        Shape area = new CircleImplements();
+	        Shape area1 = new RectangeImplements();
+	        area1.calculateArea();
+	        area.calculateArea();
+	        
+	        
+	        
 	    }
 }
