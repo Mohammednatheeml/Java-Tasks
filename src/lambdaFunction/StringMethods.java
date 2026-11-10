@@ -19,6 +19,7 @@ public class StringMethods {
 
         // Length
         System.out.println("Length: " + str.length());
+        
 
         // Reverse
         String reverse = "";
